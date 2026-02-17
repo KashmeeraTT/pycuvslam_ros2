@@ -1,0 +1,40 @@
+# ROS 2 Python Package .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ROS 2 Colcon Build Artifacts (if building in-source, though usually builds are outside)
+install/
+log/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PyCuVSLAM specific
+*.bag
+*.mcap
