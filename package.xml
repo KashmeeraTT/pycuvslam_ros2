@@ -3,9 +3,9 @@
 <package format="3">
   <name>pycuvslam_ros2</name>
   <version>0.0.1</version>
-  <description>ROS 2 wrapper for cuVSLAM</description>
+  <description>ROS 2 wrapper for NVIDIA cuVSLAM (CUDA Visual SLAM) with RGBD support.</description>
   <maintainer email="user@todo.todo">User</maintainer>
-  <license>TODO</license>
+  <license>MIT</license>
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
